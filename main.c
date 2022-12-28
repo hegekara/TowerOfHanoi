@@ -31,14 +31,6 @@ int main()
     printf("\n\nStarting Point: %ld\n", start_t);
     printf("Ending Point: %ld\n", end_t);
     printf("Elapsed Time for %d disk (sec): %f\n", num, (double)(end_t - start_t) / CLOCKS_PER_SEC);
-    printf("---------------------\n");
-    printf("|                   |\n");
-    printf("| System            |\n");
-    printf("| Macbook Air 2022  |\n");
-    printf("| CPU: M2           |\n");
-    printf("| RAM: 8GB          |\n");
-    printf("|                   |\n");
-    printf("---------------------\n");
     
     return 0;
 }
